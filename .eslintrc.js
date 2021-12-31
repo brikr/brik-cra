@@ -16,5 +16,7 @@ module.exports = {
   rules: {
     "spaced-comment": ["error", "always", { markers: ["/"] }],
     "react/prop-types": "off",
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
   },
 };
