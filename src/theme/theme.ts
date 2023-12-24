@@ -1,12 +1,8 @@
-import originalStyled, { ThemedStyledInterface } from "styled-components";
+import { DefaultTheme } from "styled-components";
 
-export const theme = {
+export const theme: DefaultTheme = {
   colors: {
     background: "#ffffff",
     onBackground: "#000000",
   },
 };
-
-export type Theme = typeof theme;
-
-export const styled = originalStyled as ThemedStyledInterface<typeof theme>;
